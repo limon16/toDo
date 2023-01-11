@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	margin: 50px auto;
+	width: 60%;
+}
+
+.box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: calc(100%/2);
+}
+
+.box-one{
+		border-right: 2px solid black;
+}
+
+.task{
+	width: 80%;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: center;
+	margin: 8px;
+	padding-bottom: 5px;
+}
