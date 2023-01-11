@@ -1,28 +1,28 @@
-*{
+* {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
-.container{
+.container {
 	display: flex;
 	justify-content: center;
 	margin: 50px auto;
 	width: 60%;
 }
 
-.box{
+.box {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: calc(100%/2);
+	width: calc(100% / 2);
 }
 
-.box-one{
-		border-right: 2px solid black;
+.box-one {
+	border-right: 2px solid black;
 }
 
-.task{
+.task {
 	width: 80%;
 	border-bottom: 1px solid black;
 	display: flex;
@@ -31,11 +31,11 @@
 	padding-bottom: 5px;
 }
 
-h1{
+h1 {
 	margin-top: 50px;
 	text-align: center;
 }
 
-hr{
- border-radius: 10px;
+hr {
+	border-radius: 10px;
 }
