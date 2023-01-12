@@ -5,9 +5,11 @@
 }
 
 .container {
+	border-bottom: 2px solid black;
+	padding: 15px;
 	display: flex;
 	justify-content: center;
-	margin: 50px auto;
+	margin: 20px auto;
 	width: 60%;
 }
 
@@ -20,19 +22,23 @@
 
 .box-one {
 	border-right: 2px solid black;
+	margin-right: 10px;
 }
 
 .task {
 	width: 80%;
 	border-bottom: 1px solid black;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
+	align-self: center;
+	padding-left: 30%;
 	margin: 8px;
 	padding-bottom: 5px;
+	
 }
 
 h1 {
-	margin-top: 50px;
+	margin-top: 10px;
 	text-align: center;
 }
 
