@@ -37,10 +37,8 @@ function createTask() {
 		span.textContent = `#${el.id} ${el.taskName}`;
 		boxOne.append(span);
 	});
-	
 }
 createTask();
-
 
 boxOne.addEventListener('click', function (e) {
 	let content;
@@ -54,4 +52,3 @@ boxOne.addEventListener('click', function (e) {
 		boxTwo.append(task);
 	}
 });
-
